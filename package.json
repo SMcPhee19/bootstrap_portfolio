@@ -14,7 +14,7 @@
     },
     "engines": {
         "node": "18.15.0"
-      },      
+    },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [
         "css",
@@ -39,7 +39,8 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-resume.git"
     },
     "dependencies": {
-        "bootstrap": "5.2.3"
+        "bootstrap": "5.2.3",
+        "shelljs": "^0.8.4"
     },
     "devDependencies": {
         "autoprefixer": "10.4.14",
