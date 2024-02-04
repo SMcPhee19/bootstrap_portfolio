@@ -26,3 +26,9 @@
 .description-text {
   margin-top: .5rem;
 }
+
+.p10-photo img {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}

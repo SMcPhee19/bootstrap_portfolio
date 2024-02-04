@@ -10999,3 +10999,10 @@ section.resume-section .resume-section-content {
 .description-text {
   margin-top: 0.5rem;
 }
+
+.p10-photo img {
+  aspect-ratio: 3/2;
+  -o-object-fit: contain;
+     object-fit: contain;
+  mix-blend-mode: color-burn;
+}
