@@ -13,7 +13,8 @@
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
     "engines": {
-        "node": "18.15.0"
+        "node": "18.15.0",
+        "npm": "9.5.0"
     },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [
