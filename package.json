@@ -13,7 +13,8 @@
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
     "engines": {
-        "node": "18.15.0"
+        "node": "18.15.0",
+        "npm": "9.5.0"
     },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [
@@ -39,8 +40,7 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-resume.git"
     },
     "dependencies": {
-        "bootstrap": "5.2.3",
-        "shelljs": "^0.8.5"
+        "bootstrap": "5.2.3"
     },
     "devDependencies": {
         "autoprefixer": "10.4.14",
@@ -51,7 +51,7 @@
         "prettier": "2.8.6",
         "pug": "3.0.2",
         "sass": "1.60.0",
-        "shelljs": "0.8.5",
+        "shelljs": "^0.8.5",
         "upath": "2.0.1"
     }
 }
