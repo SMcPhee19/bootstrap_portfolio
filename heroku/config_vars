@@ -4,3 +4,6 @@
   NPM_CONFIG_PRODUCTION; false,
   USE_NPM_INSTALL; true
 }
+
+// Use this command `heroku config:set NPM_CONFIG_PRODUCTION=false` if it is throwing an error for can't find shelljs
+// when trying to deploy to heroku
